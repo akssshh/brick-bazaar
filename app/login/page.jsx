@@ -8,7 +8,7 @@ const page = () => {
     <section className="h-screen grid place-items-center ">
       <form
         method="post"
-        className="card w-96 p-8 bg-base-100 shadow-lg flex flex-col gap-y-p"
+        className="card w-96 p-8 bg-base-100 shadow-lg flex flex-col gap-y-4"
       >
         <h4 className="text-center text-3xl mt-8 font-bold">Login</h4>
 
@@ -33,7 +33,7 @@ const page = () => {
         <p className="text-center">
           Not a member yet?
           <Link
-            href='/'
+            href='/register'
             className="ml-2 link link-hover link-primary capitalize"
           >
             register
